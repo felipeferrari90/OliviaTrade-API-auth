@@ -1,0 +1,21 @@
+{
+  "name": "olivia-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-warnings src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "json-parser": "^3.1.2",
+    "jwt-encode": "^1.0.1",
+    "sequelize": "^6.16.1",
+    "sha2": "^1.0.2",
+    "sqlite3": "^5.0.2"
+  }
+}
